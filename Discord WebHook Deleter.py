@@ -1,3 +1,4 @@
+# Modules importation
 import time
 import os
 try:
@@ -32,7 +33,7 @@ def delete():
     check = requests.get(webhook)
     if check.status_code == 404:
         print("\n [LOGS] WEBHOOK SUCCESFULLY DELETED")
-        os.system("pause >nul")
+        os.system("pause >nul")  # Pause command in Batch (press any key to exit the code)
     elif check.status_code == 200:
         print("\n [LOGS] FAILED TO DELETE WEBHOOK")
         os.system("pause >nul")
