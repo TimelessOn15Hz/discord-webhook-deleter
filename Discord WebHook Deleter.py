@@ -7,7 +7,7 @@ except:
     from colorama import Fore, init
 try:
     import requests
-excepy:
+except:
     os.system("py -m pip instamm requests")
     import requests
 
