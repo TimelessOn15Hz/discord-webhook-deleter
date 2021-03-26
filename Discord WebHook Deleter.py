@@ -1,7 +1,15 @@
-from colorama import Fore, init
-import requests
 import time
 import os
+try:
+    from colorama import Fore, init
+except:
+    os.system("py -m pip install colorama")
+    from colorama import Fore, init
+try:
+    import requests
+excepy:
+    os.system("py -m pip instamm requests")
+    import requests
 
 init()
 os.system("title 𝗪𝗘𝗕𝗛𝗢𝗢𝗞 𝗗𝗘𝗟𝗘𝗧𝗘𝗥")
