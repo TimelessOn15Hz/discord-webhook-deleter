@@ -1,15 +1,14 @@
-# Modules importation
-import time
+# IMPORTS
 import os
 try:
     from colorama import Fore, init
 except:
-    os.system("py -m pip install colorama")
+    os.system("python.exe -m pip install colorama")
     from colorama import Fore, init
 try:
     import requests
 except:
-    os.system("py -m pip install requests")
+    os.system("python.exe -m pip install requests")
     import requests
 
 from banner import banner
