@@ -12,6 +12,8 @@ except:
     os.system("py -m pip install requests")
     import requests
 
+from banner import banner
+
 init()
 os.system("title WEBHOOK DELETER")
 banner = (Fore.MAGENTA + """
