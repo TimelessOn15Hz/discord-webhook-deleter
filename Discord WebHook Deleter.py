@@ -9,7 +9,7 @@ except:
 try:
     import requests
 except:
-    os.system("py -m pip instamm requests")
+    os.system("py -m pip install requests")
     import requests
 
 init()
